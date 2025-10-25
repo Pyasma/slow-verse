@@ -16776,7 +16776,7 @@
           jl = 0.5,
           Cl = {
             default: new r.E({ color: 14884388 }),
-            grey: new r.D({ color: 5592405 }),
+            grey: new r.D({ color: 14884388 }),
             wheel: new r.D({ color: 4473924 }),
             white: new r.D({ color: 15658734 }),
             black: new r.D({ color: 6710886 }),
