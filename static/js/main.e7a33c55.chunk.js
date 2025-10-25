@@ -16775,7 +16775,7 @@
           Nl = 2 * Math.PI,
           jl = 0.5,
           Cl = {
-            default: new r.E({ color: 11184810 }),
+            default: new r.E({ color: 14884388 }),
             grey: new r.D({ color: 5592405 }),
             wheel: new r.D({ color: 4473924 }),
             white: new r.D({ color: 15658734 }),
