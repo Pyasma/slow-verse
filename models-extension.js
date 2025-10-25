@@ -351,7 +351,7 @@
     // ============================================================================
 
     function autoReplaceCarModel() {
-        console.log('[Models Extension] Auto-replacing default car with better GLB model...');
+        console.log('[Models Extension] Auto-replacing default car with Lightning McQueen...');
 
         // Wait for game to initialize
         setTimeout(() => {
@@ -363,14 +363,14 @@
                 return;
             }
 
-            console.log('[Models Extension] Found game scene, loading better car model...');
+            console.log('[Models Extension] Found game scene, loading Lightning McQueen...');
 
             // Load Lightning McQueen GLB
             const gltfLoader = new THREE.GLTFLoader();
             gltfLoader.load(
                 './static/media/lightning_mcqueen.glb',
                 (gltf) => {
-                    console.log('[Models Extension] ✅ Better car model loaded successfully!');
+                    console.log('[Models Extension] ✅ Lightning McQueen loaded successfully!');
 
                     // Find and replace the existing car mesh
                     scene.traverse((child) => {
@@ -392,7 +392,7 @@
                                 child.parent.add(newCar);
                                 child.parent.remove(child);
 
-                                console.log('[Models Extension] ✅ Car replaced with better model!');
+                                console.log('[Models Extension] ✅ Car replaced with Lightning McQueen!');
                             }
                         }
                     });
