@@ -17093,7 +17093,8 @@
                     i in Cl && (t = Cl[i]),
                       (e.material = t),
                       (e.visible = !1),
-                      "shadow" == i && (e.castShadow = !0);
+                      "shadow" == i && (e.castShadow = !0),
+                      (e.position.z -= z.wheels.tyreWidth);
                   }
                 }),
                   this.initWheels(t, z.bike),
