@@ -17149,7 +17149,7 @@
               (i.i = 0),
               (i.name = "fl"),
               (i.front = !0),
-              (i.relPos = new r.U(t ? 0 : s.width / 2, s.radius, s.length)),
+              (i.relPos = new r.U(t ? 0 : s.width / 2, s.radius, 0)),
               (i.hasDrive = !0),
               i.position.copy(i.relPos),
               (i.rotation.y = 0),
