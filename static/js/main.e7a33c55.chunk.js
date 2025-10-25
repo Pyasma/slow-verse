@@ -17082,7 +17082,7 @@
               }),
                 this.positionHeadlights(),
                 this.updateHeadlights(),
-                (e.rotation.y = -Math.PI / 2),
+                (e.rotation.y = Math.PI / 2),
                 z.geo.add(e);
             }),
               a.load(s.default, (t) => {
