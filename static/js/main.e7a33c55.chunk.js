@@ -64,7 +64,7 @@
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/lightning_mcqueen_optimized.obj");
+        i.r(t), (t.default = i.p + "static/media/lightning_mcqueen_fixed.obj");
       },
       function (e, t, i) {
         "use strict";
