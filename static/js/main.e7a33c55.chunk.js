@@ -12084,7 +12084,7 @@
           ur = i.p + "static/media/veh_car.9991c48a.svg",
           gr = i.p + "static/media/veh_bus.9b1fce50.svg",
           Ar = i.p + "static/media/veh_bike.af1bd6f4.svg",
-          mr = "";
+          mr = i.p + "static/media/roadster-07b_map.17a06a45.jpg";
         const xr = {
             Chase: {
               pitch: { near: 0.3, far: 0.2 },
