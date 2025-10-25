@@ -16802,6 +16802,11 @@
             reverselight: new r.F({ color: 6710852, emissive: 16777096 }),
             headlight: new r.F({ color: 6710886, emissive: 16777181 }),
             window: new r.E({ color: 6712183, specular: 2236962 }),
+            "50": new r.F({ color: 14884388, roughness: 0.5 }),
+            "51": new r.F({ color: 16763904, roughness: 0.5 }),
+            "52": new r.E({ color: 4885248, specular: 16777215 }),
+            "53": new r.D({ color: 2236962 }),
+            "54": new r.D({ color: 16777215 }),
             shadow: new r.C({
               color: 0,
               colorWrite: !1,
