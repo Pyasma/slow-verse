@@ -17080,8 +17080,12 @@
                 if (e.isMesh) {
                   let t = Cl.default,
                     i = e.name.split("_")[1];
-                  i in Cl && (t = Cl[i]),
-                    (e.material = t),
+                  if (e.material && e.material.name && e.material.name in Cl) {
+                    t = Cl[e.material.name];
+                  } else if (i in Cl) {
+                    t = Cl[i];
+                  }
+                  (e.material = t),
                     "shadow" == i && (e.castShadow = !0);
                 }
               }),
