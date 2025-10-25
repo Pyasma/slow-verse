@@ -17093,8 +17093,7 @@
                     i in Cl && (t = Cl[i]),
                       (e.material = t),
                       (e.visible = !1),
-                      "shadow" == i && (e.castShadow = !0),
-                      (e.position.z -= z.wheels.tyreWidth);
+                      "shadow" == i && (e.castShadow = !0);
                   }
                 }),
                   this.initWheels(t, z.bike),
@@ -17165,7 +17164,7 @@
               (i.relPos = new r.U(
                 t ? 0 : -s.width / 2,
                 s.radius,
-                t ? 0 : s.length
+                0
               )),
               (i.hasDrive = !0),
               i.position.copy(i.relPos),
