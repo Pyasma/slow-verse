@@ -68,7 +68,7 @@
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/lightning_mcqueen_fixed.obj");
+        i.r(t), (t.default = i.p + "static/media/roadster_wheel_02.bbc40837.obj");
       },
       function (e, t, i) {},
       ,
