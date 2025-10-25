@@ -47,9 +47,13 @@ body {
     font-family: Jura;
     src: url(../../static/media/Jura.8b933881.ttf);
   }
+  @font-face {
+    font-family: Orbitron;
+    src: url(../../static/media/Orbitron.ttf) format("truetype");
+  }
   body {
     overflow: hidden;
-    font-family: ShareTech, monospace;
+    font-family: Orbitron, monospace;
   }
   :focus {
     outline: none;
@@ -898,12 +902,13 @@ body {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5333333333333333);
     padding: 4px;
     font-size: 1.8vh;
+    color: #FFC107;
   }
   .ui-stat-val {
     font-size: 3vh;
-    color: #fff;
+    color: #FFC107;
     padding: 2px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5333333333333333);
+    text-shadow: 0 0 20px rgba(255, 193, 7, 0.6), 0 0 40px rgba(255, 193, 7, 0.4);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.2);
   }
@@ -1170,6 +1175,7 @@ body {
     height: 60px;
     line-height: 60px;
     font-size: 18px;
+    color: #FFC107;
   }
   .menu-panel-choice-row,
   .menu-panel-row {
@@ -1202,7 +1208,7 @@ body {
   }
   .menu-panel-button {
     border-radius: 6px;
-    color: #fff;
+    color: #FFC107;
     background-color: hsla(0, 0%, 100%, 0.4);
   }
   .menu-panel-button-inactive {
@@ -1242,7 +1248,7 @@ body {
     line-height: 30px;
     font-size: 14px;
     height: 30px !important;
-    color: hsla(0, 0%, 100%, 0.6);
+    color: #FFC107;
     text-align: center;
     font-family: Jura;
     background-color: #222;
