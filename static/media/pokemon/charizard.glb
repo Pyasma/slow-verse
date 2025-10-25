@@ -735,8 +735,8 @@ for(var i = 0; i < focusSettings.length; i++) {
 					
 <div id='elUserSignIn_menu' class='ipsMenu ipsMenu_auto ipsHide'>
 	<form accept-charset='utf-8' method='post' action='https://projectpokemon.org/home/login/'>
-		<input type="hidden" name="csrfKey" value="50efef010bdfcc72a3883df79bf8e669">
-		<input type="hidden" name="ref" value="aHR0cHM6Ly9wcm9qZWN0cG9rZW1vbi5vcmcvaW1hZ2VzL3Nwcml0ZXMtbW9kZWxzL2hvbWVtb2RlbHMvcG9rZV9jYXB0dXJlXzAwMjVfMDAwX21mX25fMDAwMDAwMDBfZl9uLmdsYg==">
+		<input type="hidden" name="csrfKey" value="38e5f462fb76a2ec13efd1e55842e830">
+		<input type="hidden" name="ref" value="aHR0cHM6Ly9wcm9qZWN0cG9rZW1vbi5vcmcvaW1hZ2VzL3Nwcml0ZXMtbW9kZWxzL2hvbWVtb2RlbHMvcG9rZV9jYXB0dXJlXzAwMDZfMDAwX21mX25fMDAwMDAwMDBfZl9uLmdsYg==">
 		<div data-role="loginForm">
 			
 			
@@ -1026,15 +1026,15 @@ for(var i = 0; i < focusSettings.length; i++) {
 			<ul id='elNavTheme_menu' class='ipsMenu ipsMenu_selectable ipsHide'>
 			
 				<li class='ipsMenu_item ipsMenu_itemChecked'>
-					<form action="//projectpokemon.org/home/theme/?csrfKey=50efef010bdfcc72a3883df79bf8e669" method="post">
-					<input type="hidden" name="ref" value="aHR0cHM6Ly9wcm9qZWN0cG9rZW1vbi5vcmcvaW1hZ2VzL3Nwcml0ZXMtbW9kZWxzL2hvbWVtb2RlbHMvcG9rZV9jYXB0dXJlXzAwMjVfMDAwX21mX25fMDAwMDAwMDBfZl9uLmdsYg==">
+					<form action="//projectpokemon.org/home/theme/?csrfKey=38e5f462fb76a2ec13efd1e55842e830" method="post">
+					<input type="hidden" name="ref" value="aHR0cHM6Ly9wcm9qZWN0cG9rZW1vbi5vcmcvaW1hZ2VzL3Nwcml0ZXMtbW9kZWxzL2hvbWVtb2RlbHMvcG9rZV9jYXB0dXJlXzAwMDZfMDAwX21mX25fMDAwMDAwMDBfZl9uLmdsYg==">
 					<button type='submit' name='id' value='30' class='ipsButton ipsButton_link ipsButton_link_secondary'>Chameleon Dark (Default)</button>
 					</form>
 				</li>
 			
 				<li class='ipsMenu_item'>
-					<form action="//projectpokemon.org/home/theme/?csrfKey=50efef010bdfcc72a3883df79bf8e669" method="post">
-					<input type="hidden" name="ref" value="aHR0cHM6Ly9wcm9qZWN0cG9rZW1vbi5vcmcvaW1hZ2VzL3Nwcml0ZXMtbW9kZWxzL2hvbWVtb2RlbHMvcG9rZV9jYXB0dXJlXzAwMjVfMDAwX21mX25fMDAwMDAwMDBfZl9uLmdsYg==">
+					<form action="//projectpokemon.org/home/theme/?csrfKey=38e5f462fb76a2ec13efd1e55842e830" method="post">
+					<input type="hidden" name="ref" value="aHR0cHM6Ly9wcm9qZWN0cG9rZW1vbi5vcmcvaW1hZ2VzL3Nwcml0ZXMtbW9kZWxzL2hvbWVtb2RlbHMvcG9rZV9jYXB0dXJlXzAwMDZfMDAwX21mX25fMDAwMDAwMDBfZl9uLmdsYg==">
 					<button type='submit' name='id' value='23' class='ipsButton ipsButton_link ipsButton_link_secondary'>IPS Default </button>
 					</form>
 				</li>
@@ -1453,7 +1453,7 @@ for(var i = 0; i < focusSettings.length; i++) {
 			notification_imgURL: "https://projectpokemon.org/home/uploads/set_resources_30/0cb563f8144768654a2205065d13abd6_notification.png",
 			baseURL: "//projectpokemon.org/home/",
 			jsURL: "//projectpokemon.org/home/applications/core/interface/js/js.php",
-			csrfKey: "50efef010bdfcc72a3883df79bf8e669",
+			csrfKey: "38e5f462fb76a2ec13efd1e55842e830",
 			antiCache: "36d09ec8be1759755643",
 			jsAntiCache: "36d09ec8be1759018874",
 			disableNotificationSounds: true,
@@ -1707,8 +1707,8 @@ $(document).ready(function(){
 </div>
 		
 <!-- Switch to alt theme -->
-<form action="//projectpokemon.org/home/theme/?csrfKey=50efef010bdfcc72a3883df79bf8e669" method="post" id='focusAltTheme'>
-	<input type="hidden" name="ref" value="aHR0cHM6Ly9wcm9qZWN0cG9rZW1vbi5vcmcvaW1hZ2VzL3Nwcml0ZXMtbW9kZWxzL2hvbWVtb2RlbHMvcG9rZV9jYXB0dXJlXzAwMjVfMDAwX21mX25fMDAwMDAwMDBfZl9uLmdsYg==">
+<form action="//projectpokemon.org/home/theme/?csrfKey=38e5f462fb76a2ec13efd1e55842e830" method="post" id='focusAltTheme'>
+	<input type="hidden" name="ref" value="aHR0cHM6Ly9wcm9qZWN0cG9rZW1vbi5vcmcvaW1hZ2VzL3Nwcml0ZXMtbW9kZWxzL2hvbWVtb2RlbHMvcG9rZV9jYXB0dXJlXzAwMDZfMDAwX21mX25fMDAwMDAwMDBfZl9uLmdsYg==">
 	<button type='submit' name='id' value='0' id='focusAltThemeSubmit'>Change theme</button>
 </form>
 		<!--ipsQueryLog-->
