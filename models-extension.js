@@ -365,10 +365,10 @@
 
             console.log('[Models Extension] Found game scene, loading better car model...');
 
-            // Load the sports car GLB
+            // Load Lightning McQueen GLB
             const gltfLoader = new THREE.GLTFLoader();
             gltfLoader.load(
-                './static/media/sports-car.glb',
+                './static/media/lightning_mcqueen.glb',
                 (gltf) => {
                     console.log('[Models Extension] ✅ Better car model loaded successfully!');
 
