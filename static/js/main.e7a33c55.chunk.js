@@ -17164,7 +17164,7 @@
               (i.relPos = new r.U(
                 t ? 0 : -s.width / 2,
                 s.radius,
-                0
+                t ? 0 : s.length
               )),
               (i.hasDrive = !0),
               i.position.copy(i.relPos),
