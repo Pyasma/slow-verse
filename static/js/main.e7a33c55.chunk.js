@@ -68,7 +68,7 @@
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/YR4FBSTD1J9D7G5V5C6C904AU.obj");
+        i.r(t), (t.default = i.p + "static/media/debug_wheel.291c4dc1.obj");
       },
       function (e, t, i) {},
       ,
