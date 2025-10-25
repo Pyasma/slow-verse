@@ -64,11 +64,11 @@
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/lightning_mcqueen_fixed.obj");
+        i.r(t), (t.default = i.p + "static/media/YR4FBSTD1J9D7G5V5C6C904AU.obj");
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/roadster_wheel_02.bbc40837.obj");
+        i.r(t), (t.default = i.p + "static/media/YR4FBSTD1J9D7G5V5C6C904AU.obj");
       },
       function (e, t, i) {},
       ,
