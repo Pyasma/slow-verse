@@ -16784,6 +16784,10 @@
             body: new r.F({ color: 16316664, roughness: 0.5 }),
             map: new r.F({ color: 16777215, roughness: 0.5, map: F(null) }),
             metal: new r.D({ color: 16777215 }),
+            light1: new r.F({ color: 14884388, roughness: 0.5 }),
+            light2: new r.F({ color: 16763904, roughness: 0.5 }),
+            lightwheel: new r.D({ color: 4473924 }),
+            "default-grey.jpg": new r.D({ color: 5592405 }),
             redlight: new r.F({
               color: 6702148,
               emissive: 16711680,
