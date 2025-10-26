@@ -17093,9 +17093,7 @@
                 this.positionHeadlights(),
                 this.updateHeadlights(),
                 (e.rotation.y = 0),
-                (e.position.y = 0.35),
-                (e.position.z = 0.5),
-                (e.scale.set(1.0, 1.0, 1.0)),
+                (e.scale.set(1.8, 1.8, 1.8)),
                 z.geo.add(e);
             }),
               a.load(s.default, (t) => {
