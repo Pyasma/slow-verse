@@ -16779,7 +16779,7 @@
           Cl = {
             default: new r.E({ color: 11184810 }),
             grey: new r.D({ color: 5592405 }),
-            wheel: new r.D({ color: 0 }),
+            wheel: new r.D({ color: 0, transparent: false, opacity: 1 }),
             white: new r.D({ color: 15658734 }),
             black: new r.D({ color: 3355443 }),
             tire: new r.D({ color: 0 }),
