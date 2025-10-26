@@ -17081,10 +17081,13 @@
                 if (e.isMesh) {
                   let t = Cl.default,
                     i = e.name.split("_")[1];
+                  console.log("McQueen Body - Mesh:", e.name, "Material name:", e.material ? e.material.name : "none", "Split name:", i);
                   if (e.material && e.material.name && e.material.name in Cl) {
                     t = Cl[e.material.name];
+                    console.log("Using material from e.material.name:", e.material.name);
                   } else if (i in Cl) {
                     t = Cl[i];
+                    console.log("Using material from split name:", i);
                   }
                   (e.material = t),
                     "shadow" == i && (e.castShadow = !0);
