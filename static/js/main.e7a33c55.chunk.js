@@ -12311,7 +12311,7 @@
                 circumference: 2.1,
                 travel: 0.07,
               },
-              skins: { basic: { body: 16316664 } },
+              skins: { basic: { body: 12656683 } },
               metrics: {
                 shadowMapSize: 4,
                 steerSpeed: 1.57,
@@ -16779,11 +16779,11 @@
           Cl = {
             default: new r.E({ color: 11184810 }),
             grey: new r.D({ color: 5592405 }),
-            wheel: new r.D({ color: 4473924 }),
+            wheel: new r.D({ color: 0 }),
             white: new r.D({ color: 15658734 }),
             black: new r.D({ color: 3355443 }),
-            tire: new r.D({ color: 2236962 }),
-            body: new r.F({ color: 16316664, roughness: 0.5 }),
+            tire: new r.D({ color: 0 }),
+            body: new r.F({ color: 12656683, roughness: 0.5 }),
             map: new r.F({ color: 16777215, roughness: 0.5, map: F(null) }),
             metal: new r.D({ color: 16777215 }),
             redlight: new r.F({
