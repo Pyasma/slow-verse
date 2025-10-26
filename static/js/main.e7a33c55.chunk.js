@@ -64,11 +64,11 @@
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/mcqueenbody.obj?v=2");
+        i.r(t), (t.default = i.p + "static/media/mcqueenbody.obj?v=3");
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/mcqueenwheel.obj?v=2");
+        i.r(t), (t.default = i.p + "static/media/mcqueenwheel.obj?v=3");
       },
       function (e, t, i) {},
       ,
@@ -17093,7 +17093,7 @@
                 this.positionHeadlights(),
                 this.updateHeadlights(),
                 (e.rotation.y = 0),
-                (e.scale.set(1.8, 1.8, 1.8)),
+                (e.position.y = 0.3),
                 z.geo.add(e);
             }),
               a.load(s.default, (t) => {
