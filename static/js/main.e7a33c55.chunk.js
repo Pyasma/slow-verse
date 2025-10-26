@@ -16782,7 +16782,7 @@
             wheel: new r.F({ color: 0, roughness: 0.5 }),
             white: new r.D({ color: 15658734 }),
             black: new r.D({ color: 3355443 }),
-            tire: new r.D({ color: 0 }),
+            tire: new r.F({ color: 0, roughness: 0.8 }),
             body: new r.F({ color: 12656683, roughness: 0.5 }),
             map: new r.F({ color: 16777215, roughness: 0.5, map: F(null) }),
             metal: new r.D({ color: 16777215 }),
