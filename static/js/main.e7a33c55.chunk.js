@@ -64,11 +64,11 @@
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/lightning_mcqueen_single.obj");
+        i.r(t), (t.default = i.p + "static/media/mcqueenbody.obj");
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/debug_wheel.291c4dc1.obj");
+        i.r(t), (t.default = i.p + "static/media/mcqueenwheel.obj");
       },
       function (e, t, i) {},
       ,
