@@ -17105,8 +17105,6 @@
                       i = e.name.split("_")[1];
                     i in Cl && (t = Cl[i]),
                       (e.material = t),
-                      (e.visible = !1),
-                      (e.scale.set(0.001, 0.001, 0.001)),
                       "shadow" == i && (e.castShadow = !0),
                       (e.position.z -= z.wheels.tyreWidth);
                   }
