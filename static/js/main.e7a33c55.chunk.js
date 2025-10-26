@@ -16783,7 +16783,7 @@
             white: new r.D({ color: 15658734 }),
             black: new r.D({ color: 3355443 }),
             tire: new r.D({ color: 2236962 }),
-            body: new r.F({ color: 16316664, roughness: 0.5 }),
+            body: new r.F({ color: 12656683, roughness: 0.5 }),
             map: new r.F({ color: 16777215, roughness: 0.5, map: F(null) }),
             metal: new r.D({ color: 16777215 }),
             redlight: new r.F({
