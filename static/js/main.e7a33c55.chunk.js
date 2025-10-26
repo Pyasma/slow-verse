@@ -16807,6 +16807,7 @@
             "52": new r.E({ color: 4885248, specular: 16777215 }),
             "53": new r.D({ color: 2236962 }),
             "54": new r.D({ color: 16777215 }),
+            "53.001": new r.D({ color: 2236962 }),
             shadow: new r.C({
               color: 0,
               colorWrite: !1,
