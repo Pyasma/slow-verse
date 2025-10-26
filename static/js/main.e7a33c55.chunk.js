@@ -17095,6 +17095,7 @@
                       (e.position.z -= z.wheels.tyreWidth);
                   }
                 }),
+                  t.scale.set(1.0, 1.0, 1.0),
                   this.initWheels(t, z.bike),
                   this.setDriveMode(jr.value.mode),
                   this.audio.initForVehicle(e, this.inputs, this.wheels.children),
