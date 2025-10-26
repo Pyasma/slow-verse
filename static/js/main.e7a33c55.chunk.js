@@ -12311,7 +12311,7 @@
                 circumference: 2.1,
                 travel: 0.07,
               },
-              skins: { basic: { body: 16316664 } },
+              skins: { basic: { body: 14747136 } },
               metrics: {
                 shadowMapSize: 4,
                 steerSpeed: 1.57,
