@@ -18887,42 +18887,11 @@
                 (i.target = z),
                 (this.lights.dir = i),
                 this.scene.add(this.lights.dir),
-                this.spawnPokemon(),
                 this.toggleCamera(),
                 this.scene.add(Do.container),
                 this.scene.add(z),
                 this.setSize(e.offsetWidth, e.offsetHeight),
                 this.render();
-            }
-            spawnPokemon() {
-              const pokemonTextures = [pokemonHaunter, pokemonCharizard, pokemon3];
-              const textureLoader = new r.pb();
-              const pokemonCount = 20;
-
-              for (let i = 0; i < pokemonCount; i++) {
-                const randomTexture = pokemonTextures[Math.floor(Math.random() * pokemonTextures.length)];
-                const texture = textureLoader.load(randomTexture);
-                texture.encoding = r.ub;
-
-                const material = new r.Gb({
-                  map: texture,
-                  transparent: true,
-                  side: r.k,
-                  alphaTest: 0.1
-                });
-
-                const geometry = new r.vb(2, 2);
-                const pokemon = new r.Aa(geometry, material);
-
-                const x = (Math.random() - 0.5) * 40;
-                const z = (Math.random() - 0.5) * 40;
-                const y = 1;
-
-                pokemon.position.set(x, y, z);
-                pokemon.rotation.y = Math.random() * Math.PI * 2;
-
-                this.scene.add(pokemon);
-              }
             }
             toggleCamera() {
               this.camController &&
