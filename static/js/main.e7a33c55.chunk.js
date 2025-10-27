@@ -64,7 +64,7 @@
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/roadster-07.0d45cf64.obj");
+        i.r(t), (t.default = i.p + "static/media/mcqueen-angry.0d45cf64.obj");
       },
       function (e, t, i) {
         "use strict";
@@ -12086,7 +12086,10 @@
           ur = i.p + "static/media/veh_car.9991c48a.svg",
           gr = i.p + "static/media/veh_bus.9b1fce50.svg",
           Ar = i.p + "static/media/veh_bike.af1bd6f4.svg",
-          mr = i.p + "static/media/roadster-07b_map.17a06a45.jpg";
+          mr = i.p + "static/media/roadster-07b_map.17a06a45.jpg",
+          pokemonHaunter = i.p + "static/media/haunter.abc12345.png",
+          pokemonCharizard = i.p + "static/media/charizard.def67890.png",
+          pokemon3 = i.p + "static/media/pokemon3.ghi11223.png";
         const xr = {
             Chase: {
               pitch: { near: 0.3, far: 0.2 },
@@ -16779,10 +16782,10 @@
           Cl = {
             default: new r.E({ color: 11184810 }),
             grey: new r.D({ color: 5592405 }),
-            wheel: new r.D({ color: 0 }),
+            wheel: new r.F({ color: 0, roughness: 0.5 }),
             white: new r.D({ color: 15658734 }),
             black: new r.D({ color: 3355443 }),
-            tire: new r.D({ color: 0 }),
+            tire: new r.F({ color: 0, roughness: 0.8 }),
             body: new r.F({ color: 12656683, roughness: 0.5 }),
             map: new r.F({ color: 16777215, roughness: 0.5, map: F(null) }),
             metal: new r.D({ color: 16777215 }),
@@ -17181,6 +17184,7 @@
                 (i.hasDrive = !1),
                 i.position.copy(i.relPos),
                 (i.rotation.y = Math.PI / 2),
+                this.wheelEulers.push(new r.m(0, Math.PI / 2, 0, "YXZ")),
                 this.wheels.add(i),
                 this.updateWheelWorldPos(i),
                 i.pPos.copy(i.worldPos),
@@ -17193,6 +17197,7 @@
                 (i.hasDrive = !1),
                 i.position.copy(i.relPos),
                 (i.rotation.y = -Math.PI / 2),
+                this.wheelEulers.push(new r.m(0, -Math.PI / 2, 0, "YXZ")),
                 this.wheels.add(i),
                 this.updateWheelWorldPos(i),
                 i.pPos.copy(i.worldPos)),
@@ -17780,8 +17785,8 @@
                   (this.wheels.children[1].dS / zl.wheelCirc) *
                   6.28 *
                   this.wheels.children[1].direction),
-                (this.wheels.children[1].rotation.x =
-                  this.wheels.children[1].rotation.x + zl.r))
+                (this.wheelEulers[1].z -= zl.r),
+                this.wheels.children[1].setRotationFromEuler(this.wheelEulers[1]))
               : ((zl.r = 0),
                 (zl.r =
                   (this.wheels.children[0].dS / zl.wheelCirc) *
@@ -17802,14 +17807,14 @@
                     (this.wheels.children[2].dS / zl.wheelCirc) *
                     6.28 *
                     this.wheels.children[2].direction),
-                  (this.wheels.children[2].rotation.x =
-                    this.wheels.children[2].rotation.x + zl.r),
+                  (this.wheelEulers[2].z += zl.r),
+                  this.wheels.children[2].setRotationFromEuler(this.wheelEulers[2]),
                   (zl.r =
                     (this.wheels.children[3].dS / zl.wheelCirc) *
                     6.28 *
                     this.wheels.children[3].direction),
-                  (this.wheels.children[3].rotation.x =
-                    this.wheels.children[3].rotation.x + zl.r))),
+                  (this.wheelEulers[3].z -= zl.r),
+                  this.wheels.children[3].setRotationFromEuler(this.wheelEulers[3]))),
             (zl.d = z.wheels.radius),
             (zl.airborne = !1),
             (zl.grounded = !1),
