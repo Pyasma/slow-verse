@@ -12086,7 +12086,10 @@
           ur = i.p + "static/media/veh_car.9991c48a.svg",
           gr = i.p + "static/media/veh_bus.9b1fce50.svg",
           Ar = i.p + "static/media/veh_bike.af1bd6f4.svg",
-          mr = i.p + "static/media/roadster-07b_map.17a06a45.jpg";
+          mr = i.p + "static/media/roadster-07b_map.17a06a45.jpg",
+          pokemonHaunter = i.p + "static/media/haunter.abc12345.png",
+          pokemonCharizard = i.p + "static/media/charizard.def67890.png",
+          pokemon3 = i.p + "static/media/pokemon3.ghi11223.png";
         const xr = {
             Chase: {
               pitch: { near: 0.3, far: 0.2 },
