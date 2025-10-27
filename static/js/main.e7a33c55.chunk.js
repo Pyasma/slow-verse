@@ -18887,6 +18887,7 @@
                 (i.target = z),
                 (this.lights.dir = i),
                 this.scene.add(this.lights.dir),
+                this.spawnPokemon(),
                 this.toggleCamera(),
                 this.scene.add(Do.container),
                 this.scene.add(z),
