@@ -17782,8 +17782,8 @@
                   (this.wheels.children[1].dS / zl.wheelCirc) *
                   6.28 *
                   this.wheels.children[1].direction),
-                (this.wheels.children[1].rotation.x =
-                  this.wheels.children[1].rotation.x + zl.r))
+                (this.wheelEulers[1].z -= zl.r),
+                this.wheels.children[1].setRotationFromEuler(this.wheelEulers[1]))
               : ((zl.r = 0),
                 (zl.r =
                   (this.wheels.children[0].dS / zl.wheelCirc) *
