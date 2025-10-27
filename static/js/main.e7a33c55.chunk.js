@@ -17804,14 +17804,14 @@
                     (this.wheels.children[2].dS / zl.wheelCirc) *
                     6.28 *
                     this.wheels.children[2].direction),
-                  (this.wheels.children[2].rotation.x =
-                    this.wheels.children[2].rotation.x + zl.r),
+                  (this.wheelEulers[2].z += zl.r),
+                  this.wheels.children[2].setRotationFromEuler(this.wheelEulers[2]),
                   (zl.r =
                     (this.wheels.children[3].dS / zl.wheelCirc) *
                     6.28 *
                     this.wheels.children[3].direction),
-                  (this.wheels.children[3].rotation.x =
-                    this.wheels.children[3].rotation.x + zl.r))),
+                  (this.wheelEulers[3].z -= zl.r),
+                  this.wheels.children[3].setRotationFromEuler(this.wheelEulers[3]))),
             (zl.d = z.wheels.radius),
             (zl.airborne = !1),
             (zl.grounded = !1),
