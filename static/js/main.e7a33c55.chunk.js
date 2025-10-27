@@ -17194,6 +17194,7 @@
                 (i.hasDrive = !1),
                 i.position.copy(i.relPos),
                 (i.rotation.y = -Math.PI / 2),
+                this.wheelEulers.push(new r.m(0, -Math.PI / 2, 0, "YXZ")),
                 this.wheels.add(i),
                 this.updateWheelWorldPos(i),
                 i.pPos.copy(i.worldPos)),
