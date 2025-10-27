@@ -64,7 +64,7 @@
       },
       function (e, t, i) {
         "use strict";
-        i.r(t), (t.default = i.p + "static/media/roadster-07.0d45cf64.obj");
+        i.r(t), (t.default = i.p + "static/media/mcqueen-angry.0d45cf64.obj");
       },
       function (e, t, i) {
         "use strict";
